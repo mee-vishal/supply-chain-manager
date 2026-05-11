@@ -15,7 +15,7 @@ npm install        # installs express + cors
 node server.js     # starts on http://localhost:3000
 ```
 
-Open your browser at **http://localhost:3000** — the frontend (`index.html`) is
+Open your browser at **https://coruscating-lolly-0b810a.netlify.app/** — the frontend (`index.html`) is
 served automatically from the same folder.
 
 For development with auto-restart on save (Node 18+):
@@ -29,7 +29,7 @@ node --watch server.js
 
 ### Base URL
 ```
-http://localhost:3000/api
+
 ```
 
 ### Health
