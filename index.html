@@ -892,9 +892,7 @@
 // ═══════════════════════════════════════════════════════════════
 //  CONFIG — point to your running backend
 // ═══════════════════════════════════════════════════════════════
-const API = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-  ? `${window.location.protocol}//${window.location.hostname}:3000/api`
-  : '/api';   // same-origin when served by the backend directly
+const API = 'https://supply-chain-manager.onrender.com/api';
 
 // ─── Generic API helper ──────────────────────────────────────
 async function apiFetch(path, opts = {}) {
